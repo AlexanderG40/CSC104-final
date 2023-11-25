@@ -1,0 +1,42 @@
+<!--Tells the browser it is coded in HTML-->
+<!DOCTYPE html>
+<!--Tells the browser it is written in english-->
+<html lang="en">
+<!--The head of my webpage stores all the data-->
+<head>
+    <!--This tells the browser to read almost all characters-->
+    <meta charset="UTF-8">
+    <!--This makes sure content still look readable and user-friendly in a mobile device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is where the title of my page goes to keep things organized and clean code-->
+    <title>Journal</title>
+</head>
+<body>
+     <!--Added a header which defines the h1-h6 of a webpage.-->
+     <header>
+        <!--This is the first h1 of my webpage-->
+        <h1>Journal</h1>
+        <!--The nav sends and defines navigation to other pages-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="calendar.html">Calendar</a>
+            <!--End of nav section-->
+        </nav>
+        <!--End of header section-->
+    </header>
+    <!--The form tells the browser to create a form where the user types in characters.-->
+    <form>
+        <!--The "Write your journal entry:" was completely messed up. Below the actual form, <br> or break fixed issue. -->
+        <label for="MYjournal">Write your journal entry:</label><br>
+        <textarea id="MYjournal" name="MYjournal" rows="40" cols="60" placeholder="Start typing any obstacles that have come up here..."></textarea>
+    </form>
+    <!--Second form will ask for any goals the user has for the future.-->
+    <form>
+        <!--The "Write your goals:" was completely messed up. Below the actual form, <br> or break fixed issue. -->
+        <label for="goals">Write your goals:</label><br>
+        <textarea id="goals" name="goals" rows="40" cols="60" placeholder="Start typing any goals that you have for the future here..."></textarea>
+    </form>
+    <!--End of body section-->
+</body>
+<!--End of html section-->
+</html>
