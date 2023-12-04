@@ -3,12 +3,9 @@ body{
     /* Set the color of the background to grey */
     background-color: grey;
     /* Change the font color to aqua */
-    color: aqua;
+    color: black;
 }
 
-header{
-    text-align: justify;
-}
 
 nav{
     /* Set the height of the nav property */
@@ -23,14 +20,16 @@ nav{
 footer{
     /* Alligns the text to center */
     text-align: center;
+    /* Sets the border of the footer to 1 px */
+    border-radius: 25px;
     /* Sets the margin */
-    margin-right: 200px;
+    margin: 25px 50px 75px 100px;
+    /* Sets the background color of the footer to dark grey  */
+    background-color: dimgrey;
+    /* Sets the padding */
+    padding: 20px;
 }
 
-/* The inline block where you can set the width and height */
-img{
-    display: inline-block;
-}
 
 /* Paragraph Style */
 p{
@@ -42,9 +41,13 @@ p{
 /* Style the h1 */
 h1{
     color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
 }
 
 /* Style the h2 */
 h2{
-    color: burlywood;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
